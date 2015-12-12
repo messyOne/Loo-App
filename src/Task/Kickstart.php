@@ -41,7 +41,8 @@ class Kickstart extends Command
         $tool->createSchema($entityManager->getMetadataFactory()->getAllMetadata());
 
         $users = (new UserFactory())->getUsers();
-        $users->create('user', 'testtest', UserRoles::USER);
+        $user = $users->create('user', 'testtest', UserRoles::USER);
+        $entityManager->persist($user);
 
         $output->writeln("Persist data...");
         $entityManager->flush();
