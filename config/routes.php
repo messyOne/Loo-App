@@ -12,6 +12,5 @@ return [
     ],
 
     Routes::CONTROLLER_DIRECTORIES => [
-        'nested' => 'Nested',
     ],
 ];
