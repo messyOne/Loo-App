@@ -1,0 +1,25 @@
+{
+	"name": "messyOne/loo-app",
+	"description": "Loo - App",
+	"homepage": "http://www.weiss-daniel.de",
+	"require": {
+	},
+	"require-dev": {
+		"phpunit/phpunit": "@stable",
+		"squizlabs/php_codesniffer": "@stable",
+		"phpmd/phpmd" : "@stable",
+		"escapestudios/symfony2-coding-standard": "@stable",
+		"fabpot/php-cs-fixer": "@stable",
+	  	"symfony/console": "@stable",
+	  	"messyOne/loo-framework": ">=0.8.0-alpha"
+	},
+	"repositories": [
+		{
+			"url": "https://github.com/messyOne/Loo-Framework.git",
+			"type": "git"
+		}
+	],
+	"autoload": {
+		"psr-4": {"": "src/"}
+	}
+}

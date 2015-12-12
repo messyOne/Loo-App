@@ -1,0 +1,7 @@
+/config/local.php
+/logs/*
+!/logs/.gitkeep
+loo-app.iml
+/vendor
+composer.lock
+.idea
