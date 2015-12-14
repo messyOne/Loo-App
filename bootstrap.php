@@ -3,7 +3,7 @@
 use Loo\Core\MasterFactory;
 use Loo\Data\Settings;
 
-define('ROOT', dirname(__DIR__));
+define('ROOT', __DIR__);
 
 include_once 'vendor/autoload.php';
 
