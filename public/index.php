@@ -7,7 +7,7 @@ use Loo\Http\Request;
 $url = isset($_GET['url']) ? $_GET['url'] : '';
 unset($_GET['url']);
 
-include_once(dirname(__DIR__).'/private/bootstrap.php');
+require_once '../bootstrap.php';
 
 $factory = new MasterFactory();
 

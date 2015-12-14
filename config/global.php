@@ -1,5 +1,5 @@
 <?php
-
+// TODO rename to public
 return [
     'default_layout' => 'default',
     'application_name' => 'Loo - Framework',
