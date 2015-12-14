@@ -4,4 +4,3 @@
 define('ROOT', dirname(__DIR__));
 define('APPLICATION', 'src');
 define('FRAMEWORK', 'Loo');
-define('EXTERNALS', 'vendor');
