@@ -1,5 +1,5 @@
 <?php
-// TODO rename to private
+
 return [
     'base_url' => 'http://loo.dev/',
     'development_environment' => true,
