@@ -6,8 +6,7 @@ return [
 
     'app_path' => 'src/',
 
-    // TODO rename to layout_templates
-    'layout_paths' => [
+    'layout_templates' => [
         'default' => 'layout/default',
     ],
 
