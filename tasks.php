@@ -1,7 +1,8 @@
 #!/usr/bin/env php
+
 <?php
 
-include_once 'private/bootstrap.php';
+include_once 'bootstrap.php';
 
 use Loo\Task\DatabaseSetup;
 use Symfony\Component\Console\Application;
