@@ -1,4 +1,4 @@
-/config/local.php
+/config/private.php
 /logs/*
 !/logs/.gitkeep
 loo-app.iml
